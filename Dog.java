@@ -1,5 +1,5 @@
 //Xandra Quevedo
-//9/9/25
+//9/11/25
 //Dog class for my Dog objects
 
 public class Dog {
