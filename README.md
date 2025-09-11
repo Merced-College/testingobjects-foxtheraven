@@ -1,4 +1,7 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=20406101)
 # testingObjects
-
-this is an example of a ReadMe file.
+1. Before toString, the name of the object was printed, followed by an @ and an 8-digit group of numbers and letters. This is the memory address (hashed for privacy and security), and it is what prints before toString is added because the reference of dog1 or game1 simply points to its memory address when you try to access it directly in that fashion.
+2. My Game class's three fields are String title, int releaseDate, and int rating. Their default values when they are first created are null, 0, and 0.
+3. The default constructor changed the values of the created object to programmer-defined values, like "Hank", instead of the defaults (ie "null"). The parameterized/non-default constructor allows the user to pass through values for the object's data variables when the object is created. The data values of a newly created object can now be set by the user.
+4. @Override explicitly overrides the default Object toString() method, telling the compiler to use our programmer-made toString() method.
+5. Encapsulation is preferred over public fields because it obscures lower-level details from a program user and ensures that they cannot directly alter the data values used by the program. One validation rule you could add to a setter is a check to make sure that a data input for age is not less than 0 (a negative number).
